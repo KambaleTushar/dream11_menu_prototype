@@ -1,0 +1,996 @@
+<!-- ***************************************************************** 
+********************** Fantasy Point System **********************
+***************************************************************** -->
+
+<html>
+	
+	<head>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- BOOTSTRAP -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+
+		<!-- CUSTOM CSS FILE -->
+		<link rel="stylesheet" href="../css/styles.css">
+
+
+	</head>
+
+
+
+	<body>
+<!-- *****************************************************************
+****************************** Fantasy Point System(fps) ******************************
+*********************************************************************** -->
+
+<header class="fps-header">
+  <p>Fantasy Point System</p>
+</header>
+
+<!-- *****************************************************************
+****************************** Nav tabs ******************************
+*********************************************************************** -->
+<div class="fps-hor-nav-tabs">
+  <ul class="nav nav-tabs" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="#quiz1" role="tab">QUIZ 1</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#quiz2" role="tab">QUIZ 2</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#quiz3" role="tab">QUIZ 3</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#quiz4" role="tab">QUIZ 4</a>
+    </li>
+  </ul>
+</div>
+
+  
+
+<!-- *****************************************************************
+****************************** Tab Content ******************************
+*********************************************************************** -->
+  <div class="tab-content">
+    
+  <!--     Tab Panes -->
+    
+    <!--     QUIZ1 -->
+    <div class="tab-pane active" id="quiz1" role="tabpanel">
+      
+      <!--       Quiz Accordion -->
+      
+      <div class="panel-group fps-acco-cont-div" id="accordion" role="tablist" aria-multiselectable="true">
+        
+        <!--         First Section -->
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingOne">
+            <p class="panel-title fps-panel-title-custom">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+    						<i class="more-less glyphicon glyphicon-plus"></i>
+                Quantitative Ability
+              </a>
+            </p>
+          </div> <!-- .panel-heading -->
+          <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body fps-panel-body-custom">
+                <ul>
+                  <li>
+                    <p>Correct Answer</p>
+                    <p class="correct-answer-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Time Taken</p>
+                    <p class="time-taken-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Wrong Answer</p>
+                    <p class="wrong-answer-point">-0.25</p>
+                  </li>
+                </ul>
+            </div> <!-- .panel-body -->
+          </div> <!-- #collapseOne/.panel-collapse -->
+        </div> <!-- .panel -->
+        
+        
+        <!--         Second Section -->
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingTwo">
+            <p class="panel-title fps-panel-title-custom">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
+    						<i class="more-less glyphicon glyphicon-plus"></i>
+                Verbal Ability
+              </a>
+            </p>
+          </div> <!-- .panel-heading -->
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div class="panel-body fps-panel-body-custom">
+                <ul>
+                  <li>
+                    <p>Correct Answer</p>
+                    <p class="correct-answer-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Time Taken</p>
+                    <p class="time-taken-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Wrong Answer</p>
+                    <p class="wrong-answer-point">-0.25</p>
+                  </li>
+                </ul>
+            </div> <!-- .panel-body -->
+          </div> <!-- #collapseTwo/.panel-collapse -->
+        </div> <!-- .panel -->
+        
+        
+        <!--         Third Section -->
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingThree">
+            <p class="panel-title fps-panel-title-custom">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+    						<i class="more-less glyphicon glyphicon-plus"></i>
+                Logical Reasoning
+              </a>
+            </p>
+          </div> <!-- .panel-heading -->
+          <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="panel-body fps-panel-body-custom">
+                <ul>
+                  <li>
+                    <p>Correct Answer</p>
+                    <p class="correct-answer-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Time Taken</p>
+                    <p class="time-taken-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Wrong Answer</p>
+                    <p class="wrong-answer-point">-0.25</p>
+                  </li>
+                </ul>
+            </div> <!-- .panel-body -->
+          </div> <!-- #collapseThree/.panel-collapse -->
+        </div> <!-- .panel -->
+        
+        
+        <!--         Fourth Section -->
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingFour">
+            <p class="panel-title fps-panel-title-custom">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+    						<i class="more-less glyphicon glyphicon-plus"></i>
+                Data Interpretation
+              </a>
+            </p>
+          </div> <!-- .panel-heading -->
+          <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+            <div class="panel-body fps-panel-body-custom">
+                <ul>
+                  <li>
+                    <p>Correct Answer</p>
+                    <p class="correct-answer-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Time Taken</p>
+                    <p class="time-taken-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Wrong Answer</p>
+                    <p class="wrong-answer-point">-0.25</p>
+                  </li>
+                </ul>
+            </div> <!-- .panel-body -->
+          </div> <!-- #collapseFour/.panel-collapse -->
+        </div> <!-- .panel -->
+        
+        
+        <!--         Fifth Section -->
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingFifth">
+            <p class="panel-title fps-panel-title-custom">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFifth" aria-expanded="true" aria-controls="collapseFifth">
+    						<i class="more-less glyphicon glyphicon-plus"></i>
+                Decision Making
+              </a>
+            </p>
+          </div> <!-- .panel-heading -->
+          <div id="collapseFifth" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFifth">
+            <div class="panel-body fps-panel-body-custom">
+                <ul>
+                  <li>
+                    <p>Correct Answer</p>
+                    <p class="correct-answer-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Time Taken</p>
+                    <p class="time-taken-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Wrong Answer</p>
+                    <p class="wrong-answer-point">-0.25</p>
+                  </li>
+                </ul>
+            </div> <!-- .panel-body -->
+          </div> <!-- #collapseFifth/.panel-collapse -->
+        </div> <!-- .panel -->
+        
+        
+        <!--         Sixth Section -->
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingSixth">
+            <p class="panel-title fps-panel-title-custom">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSixth" aria-expanded="true" aria-controls="collapseSixth">
+    						<i class="more-less glyphicon glyphicon-plus"></i>
+                Psychometric Test
+              </a>
+            </p>
+          </div> <!-- .panel-heading -->
+          <div id="collapseSixth" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSixth">
+            <div class="panel-body fps-panel-body-custom">
+                <ul>
+                  <li>
+                    <p>Correct Answer</p>
+                    <p class="correct-answer-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Time Taken</p>
+                    <p class="time-taken-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Wrong Answer</p>
+                    <p class="wrong-answer-point">-0.25</p>
+                  </li>
+                </ul>
+            </div> <!-- .panel-body -->
+          </div> <!-- #collapseSixth/.panel-collapse -->
+        </div> <!-- .panel -->
+        
+        
+        <!--         Seventh Section -->
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingSeventh">
+            <p class="panel-title fps-panel-title-custom">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeventh" aria-expanded="true" aria-controls="collapseSeventh">
+    						<i class="more-less glyphicon glyphicon-plus"></i>
+                Picture Based Test
+              </a>
+            </p>
+          </div> <!-- .panel-heading -->
+          <div id="collapseSeventh" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeventh">
+            <div class="panel-body fps-panel-body-custom">
+                <ul>
+                  <li>
+                    <p>Correct Answer</p>
+                    <p class="correct-answer-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Time Taken</p>
+                    <p class="time-taken-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Wrong Answer</p>
+                    <p class="wrong-answer-point">-0.25</p>
+                  </li>
+                </ul>
+            </div> <!-- .panel-body -->
+          </div> <!-- #collapseSeventh/.panel-collapse -->
+        </div> <!-- .panel -->
+        
+        
+      </div> <!-- #accordion/.panel-group -->
+      
+      
+    </div> <!-- quiz1 tab-pane -->
+    
+    
+<!--****************************************************************************************************************************************************************************************-->
+<!--****************************************************************************************************************************************************************************************-->
+    
+    
+    
+    <!--     QUIZ2 -->
+    <div class="tab-pane" id="quiz2" role="tabpanel">
+      
+      <!--       Quiz Accordion -->
+      
+      <div class="panel-group fps-acco-cont-div" id="accordion" role="tablist" aria-multiselectable="true">
+        
+        <!--         First Section -->
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingOne">
+            <p class="panel-title fps-panel-title-custom">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+    						<i class="more-less glyphicon glyphicon-plus"></i>
+                Quantitative Ability
+              </a>
+            </p>
+          </div> <!-- .panel-heading -->
+          <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body fps-panel-body-custom">
+                <ul>
+                  <li>
+                    <p>Correct Answer</p>
+                    <p class="correct-answer-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Time Taken</p>
+                    <p class="time-taken-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Wrong Answer</p>
+                    <p class="wrong-answer-point">-0.25</p>
+                  </li>
+                </ul>
+            </div> <!-- .panel-body -->
+          </div> <!-- #collapseOne/.panel-collapse -->
+        </div> <!-- .panel -->
+        
+        
+        <!--         Second Section -->
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingTwo">
+            <p class="panel-title fps-panel-title-custom">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
+    						<i class="more-less glyphicon glyphicon-plus"></i>
+                Verbal Ability
+              </a>
+            </p>
+          </div> <!-- .panel-heading -->
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div class="panel-body fps-panel-body-custom">
+                <ul>
+                  <li>
+                    <p>Correct Answer</p>
+                    <p class="correct-answer-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Time Taken</p>
+                    <p class="time-taken-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Wrong Answer</p>
+                    <p class="wrong-answer-point">-0.25</p>
+                  </li>
+                </ul>
+            </div> <!-- .panel-body -->
+          </div> <!-- #collapseTwo/.panel-collapse -->
+        </div> <!-- .panel -->
+        
+        
+        <!--         Third Section -->
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingThree">
+            <p class="panel-title fps-panel-title-custom">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+    						<i class="more-less glyphicon glyphicon-plus"></i>
+                Logical Reasoning
+              </a>
+            </p>
+          </div> <!-- .panel-heading -->
+          <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="panel-body fps-panel-body-custom">
+                <ul>
+                  <li>
+                    <p>Correct Answer</p>
+                    <p class="correct-answer-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Time Taken</p>
+                    <p class="time-taken-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Wrong Answer</p>
+                    <p class="wrong-answer-point">-0.25</p>
+                  </li>
+                </ul>
+            </div> <!-- .panel-body -->
+          </div> <!-- #collapseThree/.panel-collapse -->
+        </div> <!-- .panel -->
+        
+        
+        <!--         Fourth Section -->
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingFour">
+            <p class="panel-title fps-panel-title-custom">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+    						<i class="more-less glyphicon glyphicon-plus"></i>
+                Data Interpretation
+              </a>
+            </p>
+          </div> <!-- .panel-heading -->
+          <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+            <div class="panel-body fps-panel-body-custom">
+                <ul>
+                  <li>
+                    <p>Correct Answer</p>
+                    <p class="correct-answer-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Time Taken</p>
+                    <p class="time-taken-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Wrong Answer</p>
+                    <p class="wrong-answer-point">-0.25</p>
+                  </li>
+                </ul>
+            </div> <!-- .panel-body -->
+          </div> <!-- #collapseFour/.panel-collapse -->
+        </div> <!-- .panel -->
+        
+        
+        <!--         Fifth Section -->
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingFifth">
+            <p class="panel-title fps-panel-title-custom">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFifth" aria-expanded="true" aria-controls="collapseFifth">
+    						<i class="more-less glyphicon glyphicon-plus"></i>
+                Decision Making
+              </a>
+            </p>
+          </div> <!-- .panel-heading -->
+          <div id="collapseFifth" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFifth">
+            <div class="panel-body fps-panel-body-custom">
+                <ul>
+                  <li>
+                    <p>Correct Answer</p>
+                    <p class="correct-answer-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Time Taken</p>
+                    <p class="time-taken-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Wrong Answer</p>
+                    <p class="wrong-answer-point">-0.25</p>
+                  </li>
+                </ul>
+            </div> <!-- .panel-body -->
+          </div> <!-- #collapseFifth/.panel-collapse -->
+        </div> <!-- .panel -->
+        
+        
+        <!--         Sixth Section -->
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingSixth">
+            <p class="panel-title fps-panel-title-custom">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSixth" aria-expanded="true" aria-controls="collapseSixth">
+    						<i class="more-less glyphicon glyphicon-plus"></i>
+                Psychometric Test
+              </a>
+            </p>
+          </div> <!-- .panel-heading -->
+          <div id="collapseSixth" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSixth">
+            <div class="panel-body fps-panel-body-custom">
+                <ul>
+                  <li>
+                    <p>Correct Answer</p>
+                    <p class="correct-answer-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Time Taken</p>
+                    <p class="time-taken-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Wrong Answer</p>
+                    <p class="wrong-answer-point">-0.25</p>
+                  </li>
+                </ul>
+            </div> <!-- .panel-body -->
+          </div> <!-- #collapseSixth/.panel-collapse -->
+        </div> <!-- .panel -->
+        
+        
+        <!--         Seventh Section -->
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingSeventh">
+            <p class="panel-title fps-panel-title-custom">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeventh" aria-expanded="true" aria-controls="collapseSeventh">
+    						<i class="more-less glyphicon glyphicon-plus"></i>
+                Picture Based Test
+              </a>
+            </p>
+          </div> <!-- .panel-heading -->
+          <div id="collapseSeventh" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeventh">
+            <div class="panel-body fps-panel-body-custom">
+                <ul>
+                  <li>
+                    <p>Correct Answer</p>
+                    <p class="correct-answer-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Time Taken</p>
+                    <p class="time-taken-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Wrong Answer</p>
+                    <p class="wrong-answer-point">-0.25</p>
+                  </li>
+                </ul>
+            </div> <!-- .panel-body -->
+          </div> <!-- #collapseSeventh/.panel-collapse -->
+        </div> <!-- .panel -->
+        
+        
+      </div> <!-- #accordion/.panel-group -->
+    </div> <!-- quiz2 tab-pane -->
+ 
+ <!--****************************************************************************************************************************************************************************************-->
+<!--****************************************************************************************************************************************************************************************-->
+       
+    
+    <!--     QUIZ3 -->
+    <div class="tab-pane" id="quiz3" role="tabpanel">
+      
+      <!--       Quiz Accordion -->
+      
+      <div class="panel-group fps-acco-cont-div" id="accordion" role="tablist" aria-multiselectable="true">
+        
+        <!--         First Section -->
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingOne">
+            <p class="panel-title fps-panel-title-custom">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+    						<i class="more-less glyphicon glyphicon-plus"></i>
+                Quantitative Ability
+              </a>
+            </p>
+          </div> <!-- .panel-heading -->
+          <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body fps-panel-body-custom">
+                <ul>
+                  <li>
+                    <p>Correct Answer</p>
+                    <p class="correct-answer-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Time Taken</p>
+                    <p class="time-taken-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Wrong Answer</p>
+                    <p class="wrong-answer-point">-0.25</p>
+                  </li>
+                </ul>
+            </div> <!-- .panel-body -->
+          </div> <!-- #collapseOne/.panel-collapse -->
+        </div> <!-- .panel -->
+        
+        
+        <!--         Second Section -->
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingTwo">
+            <p class="panel-title fps-panel-title-custom">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
+    						<i class="more-less glyphicon glyphicon-plus"></i>
+                Verbal Ability
+              </a>
+            </p>
+          </div> <!-- .panel-heading -->
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div class="panel-body fps-panel-body-custom">
+                <ul>
+                  <li>
+                    <p>Correct Answer</p>
+                    <p class="correct-answer-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Time Taken</p>
+                    <p class="time-taken-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Wrong Answer</p>
+                    <p class="wrong-answer-point">-0.25</p>
+                  </li>
+                </ul>
+            </div> <!-- .panel-body -->
+          </div> <!-- #collapseTwo/.panel-collapse -->
+        </div> <!-- .panel -->
+        
+        
+        <!--         Third Section -->
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingThree">
+            <p class="panel-title fps-panel-title-custom">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+    						<i class="more-less glyphicon glyphicon-plus"></i>
+                Logical Reasoning
+              </a>
+            </p>
+          </div> <!-- .panel-heading -->
+          <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="panel-body fps-panel-body-custom">
+                <ul>
+                  <li>
+                    <p>Correct Answer</p>
+                    <p class="correct-answer-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Time Taken</p>
+                    <p class="time-taken-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Wrong Answer</p>
+                    <p class="wrong-answer-point">-0.25</p>
+                  </li>
+                </ul>
+            </div> <!-- .panel-body -->
+          </div> <!-- #collapseThree/.panel-collapse -->
+        </div> <!-- .panel -->
+        
+        
+        <!--         Fourth Section -->
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingFour">
+            <p class="panel-title fps-panel-title-custom">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+    						<i class="more-less glyphicon glyphicon-plus"></i>
+                Data Interpretation
+              </a>
+            </p>
+          </div> <!-- .panel-heading -->
+          <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+            <div class="panel-body fps-panel-body-custom">
+                <ul>
+                  <li>
+                    <p>Correct Answer</p>
+                    <p class="correct-answer-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Time Taken</p>
+                    <p class="time-taken-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Wrong Answer</p>
+                    <p class="wrong-answer-point">-0.25</p>
+                  </li>
+                </ul>
+            </div> <!-- .panel-body -->
+          </div> <!-- #collapseFour/.panel-collapse -->
+        </div> <!-- .panel -->
+        
+        
+        <!--         Fifth Section -->
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingFifth">
+            <p class="panel-title fps-panel-title-custom">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFifth" aria-expanded="true" aria-controls="collapseFifth">
+    						<i class="more-less glyphicon glyphicon-plus"></i>
+                Decision Making
+              </a>
+            </p>
+          </div> <!-- .panel-heading -->
+          <div id="collapseFifth" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFifth">
+            <div class="panel-body fps-panel-body-custom">
+                <ul>
+                  <li>
+                    <p>Correct Answer</p>
+                    <p class="correct-answer-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Time Taken</p>
+                    <p class="time-taken-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Wrong Answer</p>
+                    <p class="wrong-answer-point">-0.25</p>
+                  </li>
+                </ul>
+            </div> <!-- .panel-body -->
+          </div> <!-- #collapseFifth/.panel-collapse -->
+        </div> <!-- .panel -->
+        
+        
+        <!--         Sixth Section -->
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingSixth">
+            <p class="panel-title fps-panel-title-custom">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSixth" aria-expanded="true" aria-controls="collapseSixth">
+    						<i class="more-less glyphicon glyphicon-plus"></i>
+                Psychometric Test
+              </a>
+            </p>
+          </div> <!-- .panel-heading -->
+          <div id="collapseSixth" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSixth">
+            <div class="panel-body fps-panel-body-custom">
+                <ul>
+                  <li>
+                    <p>Correct Answer</p>
+                    <p class="correct-answer-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Time Taken</p>
+                    <p class="time-taken-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Wrong Answer</p>
+                    <p class="wrong-answer-point">-0.25</p>
+                  </li>
+                </ul>
+            </div> <!-- .panel-body -->
+          </div> <!-- #collapseSixth/.panel-collapse -->
+        </div> <!-- .panel -->
+        
+        
+        <!--         Seventh Section -->
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingSeventh">
+            <p class="panel-title fps-panel-title-custom">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeventh" aria-expanded="true" aria-controls="collapseSeventh">
+    						<i class="more-less glyphicon glyphicon-plus"></i>
+                Picture Based Test
+              </a>
+            </p>
+          </div> <!-- .panel-heading -->
+          <div id="collapseSeventh" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeventh">
+            <div class="panel-body fps-panel-body-custom">
+                <ul>
+                  <li>
+                    <p>Correct Answer</p>
+                    <p class="correct-answer-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Time Taken</p>
+                    <p class="time-taken-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Wrong Answer</p>
+                    <p class="wrong-answer-point">-0.25</p>
+                  </li>
+                </ul>
+            </div> <!-- .panel-body -->
+          </div> <!-- #collapseSeventh/.panel-collapse -->
+        </div> <!-- .panel -->
+        
+        
+      </div> <!-- #accordion/.panel-group -->
+    </div> <!-- quiz3 tab-pane -->
+ 
+<!--****************************************************************************************************************************************************************************************-->
+<!--****************************************************************************************************************************************************************************************-->
+    
+    
+    <!--     QUIZ4 -->
+    <div class="tab-pane" id="quiz4" role="tabpanel">
+      
+      <!--       Quiz Accordion -->
+      
+      <div class="panel-group fps-acco-cont-div" id="accordion" role="tablist" aria-multiselectable="true">
+        
+        <!--         First Section -->
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingOne">
+            <p class="panel-title fps-panel-title-custom">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+    						<i class="more-less glyphicon glyphicon-plus"></i>
+                Quantitative Ability
+              </a>
+            </p>
+          </div> <!-- .panel-heading -->
+          <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body fps-panel-body-custom">
+                <ul>
+                  <li>
+                    <p>Correct Answer</p>
+                    <p class="correct-answer-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Time Taken</p>
+                    <p class="time-taken-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Wrong Answer</p>
+                    <p class="wrong-answer-point">-0.25</p>
+                  </li>
+                </ul>
+            </div> <!-- .panel-body -->
+          </div> <!-- #collapseOne/.panel-collapse -->
+        </div> <!-- .panel -->
+        
+        
+        <!--         Second Section -->
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingTwo">
+            <p class="panel-title fps-panel-title-custom">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
+    						<i class="more-less glyphicon glyphicon-plus"></i>
+                Verbal Ability
+              </a>
+            </p>
+          </div> <!-- .panel-heading -->
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div class="panel-body fps-panel-body-custom">
+                <ul>
+                  <li>
+                    <p>Correct Answer</p>
+                    <p class="correct-answer-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Time Taken</p>
+                    <p class="time-taken-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Wrong Answer</p>
+                    <p class="wrong-answer-point">-0.25</p>
+                  </li>
+                </ul>
+            </div> <!-- .panel-body -->
+          </div> <!-- #collapseTwo/.panel-collapse -->
+        </div> <!-- .panel -->
+        
+        
+        <!--         Third Section -->
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingThree">
+            <p class="panel-title fps-panel-title-custom">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+    						<i class="more-less glyphicon glyphicon-plus"></i>
+                Logical Reasoning
+              </a>
+            </p>
+          </div> <!-- .panel-heading -->
+          <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="panel-body fps-panel-body-custom">
+                <ul>
+                  <li>
+                    <p>Correct Answer</p>
+                    <p class="correct-answer-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Time Taken</p>
+                    <p class="time-taken-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Wrong Answer</p>
+                    <p class="wrong-answer-point">-0.25</p>
+                  </li>
+                </ul>
+            </div> <!-- .panel-body -->
+          </div> <!-- #collapseThree/.panel-collapse -->
+        </div> <!-- .panel -->
+        
+        
+        <!--         Fourth Section -->
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingFour">
+            <p class="panel-title fps-panel-title-custom">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+    						<i class="more-less glyphicon glyphicon-plus"></i>
+                Data Interpretation
+              </a>
+            </p>
+          </div> <!-- .panel-heading -->
+          <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+            <div class="panel-body fps-panel-body-custom">
+                <ul>
+                  <li>
+                    <p>Correct Answer</p>
+                    <p class="correct-answer-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Time Taken</p>
+                    <p class="time-taken-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Wrong Answer</p>
+                    <p class="wrong-answer-point">-0.25</p>
+                  </li>
+                </ul>
+            </div> <!-- .panel-body -->
+          </div> <!-- #collapseFour/.panel-collapse -->
+        </div> <!-- .panel -->
+        
+        
+        <!--         Fifth Section -->
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingFifth">
+            <p class="panel-title fps-panel-title-custom">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFifth" aria-expanded="true" aria-controls="collapseFifth">
+    						<i class="more-less glyphicon glyphicon-plus"></i>
+                Decision Making
+              </a>
+            </p>
+          </div> <!-- .panel-heading -->
+          <div id="collapseFifth" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFifth">
+            <div class="panel-body fps-panel-body-custom">
+                <ul>
+                  <li>
+                    <p>Correct Answer</p>
+                    <p class="correct-answer-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Time Taken</p>
+                    <p class="time-taken-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Wrong Answer</p>
+                    <p class="wrong-answer-point">-0.25</p>
+                  </li>
+                </ul>
+            </div> <!-- .panel-body -->
+          </div> <!-- #collapseFifth/.panel-collapse -->
+        </div> <!-- .panel -->
+        
+        
+        <!--         Sixth Section -->
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingSixth">
+            <p class="panel-title fps-panel-title-custom">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSixth" aria-expanded="true" aria-controls="collapseSixth">
+    						<i class="more-less glyphicon glyphicon-plus"></i>
+                Psychometric Test
+              </a>
+            </p>
+          </div> <!-- .panel-heading -->
+          <div id="collapseSixth" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSixth">
+            <div class="panel-body fps-panel-body-custom">
+                <ul>
+                  <li>
+                    <p>Correct Answer</p>
+                    <p class="correct-answer-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Time Taken</p>
+                    <p class="time-taken-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Wrong Answer</p>
+                    <p class="wrong-answer-point">-0.25</p>
+                  </li>
+                </ul>
+            </div> <!-- .panel-body -->
+          </div> <!-- #collapseSixth/.panel-collapse -->
+        </div> <!-- .panel -->
+        
+        
+        <!--         Seventh Section -->
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingSeventh">
+            <p class="panel-title fps-panel-title-custom">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeventh" aria-expanded="true" aria-controls="collapseSeventh">
+    						<i class="more-less glyphicon glyphicon-plus"></i>
+                Picture Based Test
+              </a>
+            </p>
+          </div> <!-- .panel-heading -->
+          <div id="collapseSeventh" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeventh">
+            <div class="panel-body fps-panel-body-custom">
+                <ul>
+                  <li>
+                    <p>Correct Answer</p>
+                    <p class="correct-answer-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Time Taken</p>
+                    <p class="time-taken-point">+1</p>
+                  </li>
+                  <li>
+                    <p>Wrong Answer</p>
+                    <p class="wrong-answer-point">-0.25</p>
+                  </li>
+                </ul>
+            </div> <!-- .panel-body -->
+          </div> <!-- #collapseSeventh/.panel-collapse -->
+        </div> <!-- .panel -->
+        
+        
+      </div> <!-- #accordion/.panel-group -->
+    </div> <!-- quiz4 tab-pane -->
+    
+  </div> <!-- tab-content -->
+
+
+
+		<!-- JQUERY -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+		<!-- BOOTSTRAP -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+	</body>
+
+</html>
