@@ -237,14 +237,40 @@ ion-icon {
 
 
 
-/*****************************************************************
-****************************** Terms And Conditions (tac) ******************************
-***********************************************************************/
+/***************************************************************** 
+********************** Terms and Conditions(teco) **********************
+*****************************************************************/
+.teco-header-div-box {
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 0.5% 1.8%;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+.teco-hor-nav-tabs {
+  background-color: #d3d3d3;
+}
+
+.teco-hor-nav-tabs a {
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.nav-tabs .nav-link.active {
+  color: white;
+  background-color: #C51D23;
+}
+
 
 
 /* COMMON TAGS */
-.tac-h2, .tac-h3 {
-  color: #68d9c4;
+.teco-h2, .teco-h3 {
+  color: #C51D23;
   font-weight: 700;
   padding-bottom: 2%;
   padding-top: 2%;
@@ -252,16 +278,18 @@ ion-icon {
 }
 
 /* SECTIONS */
-.tac-common-section {
+.teco-common-section {
   padding: 4% 7%;
 }
 
-.tac-section-description {
+.teco-section-description {
   color: #666666;
   font-size: 1.2rem;
   font-weight: 600;
   line-height: 2;
 }
+
+
 
 
 
